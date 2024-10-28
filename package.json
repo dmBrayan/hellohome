@@ -1,0 +1,27 @@
+{
+  "name": "hellohomehn",
+  "version": "1.0.0",
+  "description": "Sitio web para promocionar propiedades inmobiliarias en Honduras.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "inmobiliaria",
+    "nodejs",
+    "propiedades"
+  ],
+  "author": "BrayanPeña",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "express-toastr": "^2.0.2",
+    "nodemailer": "^6.9.15",
+    "toastr": "^2.1.4"
+  }
+}
